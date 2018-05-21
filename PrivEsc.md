@@ -14,4 +14,3 @@ Windows privs (`whoami /priv`) that can be abused :
 * SeLoadDriverPrivilege
 * SeTakeOwnershipPrivilege
 * SeDebugPrivilege
-

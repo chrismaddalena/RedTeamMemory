@@ -169,7 +169,7 @@ https://github.com/HarmJ0y/ASREPRoast
 
 `Invoke-ASREPRoast -Verbose`
 
-### S4U2 & Delegation
+## S4U2 & Delegation
 
 http://www.harmj0y.net/blog/activedirectory/s4u2pwnage/
 
@@ -195,7 +195,7 @@ Hunt for admin users that allow delegation, logged into servers that allow uncon
 
 Now, remember that a machine or user account with a SPN set under msds-allowedtodelegateto can pretend to be any user they want to the target service SPN.
 
-**Scenario 1 - User Account Configured For Constrained Delegation**
+### Scenario 1 - User Account Configured For Constrained Delegation
 
 Use Kekeo or Linux tools with a user account and a known plaintext password or NTLM hash to request a TGT, execute S4U TGS request, and access the service.
 
@@ -207,7 +207,7 @@ Use Kekeo or Linux tools with a user account and a known plaintext password or N
 
 Finally, access the target as the Admin: `dir \\PRIMARY.testlab.local\C$`
 
-**Scenario 2 - Same as 1, but with a computer account**
+### Scenario 2 - Same as 1, But With a Computer Account
 
 Get SYSTEM and take on the privileges of the computer account.
 
